@@ -1,0 +1,44 @@
+{
+  "id": "com.christie.mislistas",
+  "name": "✨ Mis Listas Privadas",
+  "version": "1.2.0",
+  "description": "Tu espacio personal para organizar todo tu cine, series y anime.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "siguiendo",
+      "name": "🎬 Siguiendo"
+    },
+    {
+      "type": "movie",
+      "id": "por_ver",
+      "name": "🍿 Por Ver"
+    },
+    {
+      "type": "series",
+      "id": "en_pausa",
+      "name": "⏸️ En Pausa"
+    },
+    {
+      "type": "movie",
+      "id": "favoritos",
+      "name": "⭐ Favoritos"
+    },
+    {
+      "type": "movie",
+      "id": "completado",
+      "name": "✅ Completado"
+    }
+  ],
+  "behaviorHints": {
+    "configurable": true
+  }
+}
