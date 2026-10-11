@@ -1,0 +1,35 @@
+openapi: 3.0.1
+info:
+  title: Mis Listas Privadas
+  description: Listas privadas para organizar cine, series y anime.
+  version: 1.0.0
+servers:
+  - url: https://example.com
+paths:
+  /lists:
+    get:
+      summary: Obtiene las listas del usuario
+      operationId: getLists
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lists:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        name:
+                          type: string
+                        type:
+                          type: string
+                        items:
+                          type: array
+                          items:
+                            type: object

@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Mis Listas Privadas",
+  "name_for_model": "mis_listas_privadas",
+  "description_for_human": "Tu espacio personal para organizar todo tu cine, series y anime.",
+  "description_for_model": "Gestiona listas privadas de cine, series y anime para el usuario.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://raw.githubusercontent.com/christievildor-cell/mis-listas/main/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://raw.githubusercontent.com/christievildor-cell/mis-listas/main/logo.svg",
+  "contact_email": "christievildor@gmail.com",
+  "legal_info_url": "https://github.com/christievildor-cell/mis-listas"
+}
