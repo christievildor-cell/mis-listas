@@ -1,44 +1,63 @@
 {
   "id": "com.christie.mislistas",
   "name": "✨ Mis Listas Privadas",
-  "version": "1.2.0",
+  "author": "christievildor",
+  "version": "1.0.0",
+  "type": "catalog",
   "description": "Tu espacio personal para organizar todo tu cine, series y anime.",
+  "logo": "https://raw.githubusercontent.com/christievildor-cell/mis-listas/main/logo.png",
+  "catalogs": [
+    {
+      "name": "🎬 Siguiendo",
+      "id": "siguiendo",
+      "type": "series",
+      "extra": [],
+      "extraRequired": [],
+      "extraSupported": []
+    },
+    {
+      "name": "🍿 Por Ver",
+      "id": "por_ver",
+      "type": "movie",
+      "extra": [],
+      "extraRequired": [],
+      "extraSupported": []
+    },
+    {
+      "name": "⏸️ En Pausa",
+      "id": "en_pausa",
+      "type": "series",
+      "extra": [],
+      "extraRequired": [],
+      "extraSupported": []
+    },
+    {
+      "name": "⭐ Favoritos",
+      "id": "favoritos",
+      "type": "movie",
+      "extra": [],
+      "extraRequired": [],
+      "extraSupported": []
+    },
+    {
+      "name": "✅ Completado",
+      "id": "completado",
+      "type": "movie",
+      "extra": [],
+      "extraRequired": [],
+      "extraSupported": []
+    }
+  ],
   "resources": [
     "catalog"
   ],
-  "types": [
-    "movie",
-    "series",
-    "anime"
-  ],
-  "catalogs": [
+  "settings": [
     {
-      "type": "series",
-      "id": "siguiendo",
-      "name": "🎬 Siguiendo"
-    },
-    {
-      "type": "movie",
-      "id": "por_ver",
-      "name": "🍿 Por Ver"
-    },
-    {
-      "type": "series",
-      "id": "en_pausa",
-      "name": "⏸️ En Pausa"
-    },
-    {
-      "type": "movie",
-      "id": "favoritos",
-      "name": "⭐ Favoritos"
-    },
-    {
-      "type": "movie",
-      "id": "completado",
-      "name": "✅ Completado"
+      "id": "username",
+      "title": "Usuario de GitHub",
+      "description": "Tu usuario de GitHub para guardar las listas",
+      "type": "text",
+      "default": ""
     }
-  ],
-  "behaviorHints": {
-    "configurable": true
-  }
+  ]
 }
